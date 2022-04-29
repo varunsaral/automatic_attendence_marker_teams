@@ -52,18 +52,19 @@ class Team {
 
 // morning shift attendence
 
-let message = prompt("Enter you attendence message. Example ID , name , present");
+
 
 
 let zen_mode = window.confirm("Do you want zen mode? Everything will be default (09:30 , 05:00 , 07:00) else configure yourself by clicking cancel");
-let mor_time,eve_time,hang_time;
+let mor_time,eve_time,hang_time,message;
 if(zen_mode){
     mor_time = "09:30:00 PM";
     eve_time = "05:00:00 PM";
     hang_time = "06:59:00 PM"
 }
 else{
-    alert('Make sure you put the details according to the format given')
+    alert('Make sure you put the details according to the format given');
+    message = prompt("Enter you attendence message. Example ID , name , present");
     mor_time = prompt("Enter then time of morning attendence. Format: HH:MM:SS AM/PM");
     eve_time = prompt("Enter then time of Evening attendence. Format: HH:MM:SS AM/PM");
     hang_time = prompt("Enter then time of Exit meeting. Format: HH:MM:SS AM/PM")
