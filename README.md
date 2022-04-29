@@ -1,6 +1,7 @@
 # automatic_attendence_marker_teams
 
 This simple script do the manual work of typing attendence on time and also exiting the meeting
+(Doesn't mean you should'nt be studying , it's just to save time and made for learning purpose)
 
 currently have two modes , zen and normal
 
