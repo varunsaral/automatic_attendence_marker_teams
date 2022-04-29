@@ -9,3 +9,7 @@ everything is automatic in zen and in normal you can edit the details yourself
 it is based on dom manipulation , selcting elements and button and using settimeout to trigger on specific time
 
 Still in testing so not responsible.
+
+**STEPS TO RUN**
+
+Paste the whole script in console or create a link in html.
