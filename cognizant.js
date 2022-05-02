@@ -58,7 +58,7 @@ class Team {
 let zen_mode = window.confirm("Do you want zen mode? Everything will be default (09:30 , 05:00 , 07:00) else configure yourself by clicking cancel");
 let mor_time,eve_time,hang_time,message;
 if(zen_mode){
-    mor_time = "09:30:00 PM";
+    mor_time = "09:30:00 AM";
     eve_time = "05:00:00 PM";
     hang_time = "06:59:00 PM"
 }
